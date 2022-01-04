@@ -1,7 +1,7 @@
 import json
 from web3 import Web3
 
-w3 = Web3(Web3.HTTPProvider('https://ropsten.infura.io/v3/<apikey Infura>'))
+w3 = Web3(Web3.HTTPProvider('https://ropsten.infura.io/v3/de736e9690cc464cbd7000a8ec2f6fe2'))
 
 addressContract = '0x1aEaa601545D852b956494E2714B6AbE36A1dE34'
 with open("./PythonPizza.json") as file:
